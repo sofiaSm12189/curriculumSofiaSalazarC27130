@@ -1,0 +1,22 @@
+{
+  "name": "cvSofiaSalazarMata",
+  "version": "1.0.0",
+  "description": "Curriculum vitae de Sofia Salazar Mata",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+
+  "deploy": "gh-pages -d src/",
+    "dev": "servor src index.html 8080 --reload",
+    "start": "servor src index.html 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["curriculum", "cv", "web", "Sofia Salazar Mata"],
+  "author": "Sofia Salazar Mata",
+  "license": "ISC",
+  "packageManager": "pnpm@10.32.1",
+  "devDependencies": {
+    "servor": "^4.0.2"
+  }
+  
+}
